@@ -36,4 +36,5 @@
 
     .active {
         background: #f00;
+        transition: ;
     }

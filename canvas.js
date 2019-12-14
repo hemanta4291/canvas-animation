@@ -112,7 +112,7 @@ for (let i = 0; i < chilbtn.length; i++) {
         }
         this.classList.add('active')
         const target = this.getAttribute("data-target");
-        console.log(items_filter);
+        //console.log(items_filter);
 
         for (let k = 0; k < items_filter.length; k++) {
             items_filter[k].style.opacity = '0.5';
