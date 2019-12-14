@@ -1,5 +1,39 @@
-    canvas{
-    border : 1px solid #ddd;
-    width: 100%;
-    
-}
+    canvas {
+        border: 1px solid #ddd;
+        width: 100%;
+
+    }
+
+    .single {
+        background: #f00;
+        padding: 50px 0;
+    }
+
+
+    /* portfolio  */
+    li {}
+
+    ul#prot li {
+        text-transform: uppercase;
+        font-weight: 700;
+        list-style: none;
+        padding: 14px 14px;
+        float: left;
+        color: #ada2a2;
+        border-right: 1px solid;
+        cursor: pointer;
+    }
+
+    ul#prot {
+        background: #000;
+        padding: 0;
+        display: inline-block;
+    }
+
+    ul#prot li:hover {
+        background: #f00;
+    }
+
+    .active {
+        background: #f00;
+    }
